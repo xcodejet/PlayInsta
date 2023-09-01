@@ -1,0 +1,196 @@
+/*popins*/@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.i_nstagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-box {
+    width: 80%;
+}
+.header-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+}
+.body-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-box-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.login-box-input label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(143, 142, 142);
+    transition: .2s;
+    z-index: -2;
+}
+.login-box-input input {
+    width: 100%;
+    height: 40px;
+    margin: 3px 0px;
+    padding: 8px;
+    padding-top: 20px;
+    background-color: rgb(252, 252, 252);
+    background-color: transparent;
+    border: .5px solid rgb(224, 224, 224);
+    border-radius: 3px;
+    font-size: 12px;
+    outline: none;
+    color: rgb(65, 65, 65);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-box-input i {
+    position: absolute;
+    right: 8px;
+}
+/*.login-box-input input:focus~label,*/
+.login-box-input input:valid~label {
+    top: 14px;
+    font-size: 10px;
+}
+
+.login-button {
+    margin-top: 12px;
+}
+.login-button a {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4cb3f8;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.5px;
+    font-family: "Poppins", sans-serif;
+}
+.or-line {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.or-line hr {
+    width: 100%;
+    opacity: .3;
+}
+.or-line b {
+    width: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: grey;
+    font-weight: normal;
+}
+
+.login-with-fb {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-with-fb img {
+    width: 16px;
+    margin: 7px;
+}
+.login-with-fb a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forgot-password a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+}
+
+.signup-box {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-box b {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(61, 61, 61);
+}
+.signup-box a {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #0296f8;
+}
+
+.get-app-box {
+    display: flex;
+    margin-top: 10px;
+}
+.get-app-box img {
+    width: 130px;
+    height: 40px;
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer b {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+.footer-names {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-a-name {
+    margin: 5px;
+}
+.footer-a-name a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-a-name a:hover{
+    text-decoration: underline;
+}
